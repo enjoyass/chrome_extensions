@@ -1,1 +1,2 @@
-这个是书签扩展，使用到chrome.bookmarks.getTree API
+1. 这个是书签扩展，使用到chrome.bookmarks.getTree API
+2.icon.jpg自己从网上下载一个图片，命名成icon.jpg
