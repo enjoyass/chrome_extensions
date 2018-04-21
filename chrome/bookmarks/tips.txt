@@ -1,0 +1,1 @@
+这个是书签扩展，使用到chrome.bookmarks.getTree API
