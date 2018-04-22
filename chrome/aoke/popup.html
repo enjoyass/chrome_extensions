@@ -1,0 +1,101 @@
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<style type="text/css">
+ 		
+            input{
+                border: 1px solid #ccc;
+                padding: 7px 0px;
+                border-radius: 3px;
+                padding-left:5px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+                -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+            }
+            input:focus{
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
+            .inputGroup{
+            	
+            	height: 100px;
+            }
+            .button {
+			    color: #666;
+			    background-color: #EEE;
+			    border-color: #EEE;
+			    font-weight: 300;
+			    font-size: 16px;
+			    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+			    text-decoration: none;
+			    text-align: center;
+			    line-height: 40px;
+			    height: 40px;
+			    padding: 0 40px;
+			    margin: 0;
+			    display: inline-block;
+			    appearance: none;
+			    cursor: pointer;
+			    border: none;
+			    -webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    box-sizing: border-box;
+			    -webkit-transition-property: all;
+			    transition-property: all;
+			    -webkit-transition-duration: .3s;
+			    transition-duration: .3s;
+			}
+			.button-action, .button-action-flat {
+    			background-color: #A5DE37;
+    			border-color: #A5DE37;
+    			color: #FFF;
+			}
+			.button-pill {
+    			border-radius: 200px;
+			}
+			.button-raised {
+			    border-color: #e1e1e1;
+			    border-style: solid;
+			    border-width: 1px;
+			    line-height: 38px;
+			    background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e1e1e1));
+			    background: linear-gradient(#f6f6f6, #e1e1e1);
+			    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15);
+			    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15);
+			}
+			.button-raised.button-primary {
+    			border-color: #088ef0;
+    			background: -webkit-gradient(linear, left top, left bottom, from(#34a5f8), to(#088ef0));
+   				 background: linear-gradient(#34a5f8, #088ef0);
+			}
+			.button-primary:visited, .button-primary-flat:visited {
+			    color: #FFF;
+			}
+ 	</style>
+ </head>
+ <body>
+ 	<div id="tips"></div>
+ 	<div class="inputGroup">
+ 		<div>
+ 			精度1:<input type="txt" name="precision1" id="precision1">
+ 		</div>
+ 		<div>
+ 			精度2:<input type="txt" name="precision2" id="precision2">
+ 		</div>
+ 		<div>
+ 			赔率1:<input type="txt" name="odds1" id="odds1">
+ 		</div>
+ 		<div>
+ 			赔率2:<input type="txt" name="odds2" id="odds2">
+ 		</div>
+ 		<div>
+ 			<button class="button button-raised button-primary button-pill" id="calc">计算</button>
+ 		</div>
+ 	</div>
+ </body>
+ <script src="popup.js"></script>
+ </html>

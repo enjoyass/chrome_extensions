@@ -1,0 +1,19 @@
+{
+	"name":"Print this page",
+	"description":"Adds a Print button to the browser",
+	"version":"1.0.0",
+	"background":{
+		"scripts":["background.js"]
+	},
+	"permissions":[
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"browser_action":{
+		"default_title":"print this page",
+		"default_icon":"icon.jpg",
+		"default_badge":"aoke"
+	},
+	"manifest_version":2
+}

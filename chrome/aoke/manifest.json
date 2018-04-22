@@ -1,0 +1,14 @@
+{
+  "name" : "Idle - Simple Example",
+  "version" : "1.0.1",
+  "description" : "Demonstrates the Idle API",
+  "background" : {
+    "scripts": ["background.js"]
+  },
+  "permissions" : [ "idle" ],
+  "browser_action" : {
+    "default_icon" : "icon_19.jpg"
+  },
+
+  "manifest_version": 2
+}
